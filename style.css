@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    font-family: "YuGothic";
+    text-align: center;
+}
+
+html {
+  touch-action: manipulation;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    font-size: 2vw;
+}
+
+.timer{
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.time {
+    font-size: 7vw;
+}
+
+#timer-1{
+    background-color: rgb(250, 207, 214);
+}
+
+#timer-2{
+    background-color: rgb(252, 252, 183);
+}
+
+#timer-3{
+    background-color: rgb(193, 252, 193);
+}
+
+footer{
+    margin-top: 20px;
+}
