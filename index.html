@@ -19,56 +19,54 @@
     </header>
 
     <main>
-        <div id="timer-1" class="timer">
-            <form method="post">
-                <input type="radio" name="method">煮る
-                <input type="radio" name="method">焼く
-                <input type="radio" name="method">茹でる
-                <input type="radio" name="method">その他
-            </form>
-
-            <div id="timer" class="time">00:00</div>
-            <div id="controls">
-                <button id="min">分</button>
-                <button id="sec">10秒</button>
-                <button id="start">スタート</button>
-                <button id="reset">リセット</button>
+        <div class="box" style="background-color: rgb(250, 207, 214);">
+            <div class="title">煮る</div>
+            <div id="timer-1" class="timer">
+                <p id="timer" class="time">00:00</p>
+                <div id="controls" class="btns">
+                    <div class="btn">
+                        <button id="min">＋　１分</button>
+                        <button id="sec">＋１０秒</button>
+                    </div>
+                    <div class="btn">
+                        <button id="start">スタート</button>
+                        <button id="reset">リセット</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="timer-2" class="timer">
-            <form method="post">
-                <input type="radio" name="method">煮る
-                <input type="radio" name="method">焼く
-                <input type="radio" name="method">茹でる
-                <input type="radio" name="method">その他
-            </form>
-
-            <div id="timer2" class="time">00:00</div>
-            
-            <div id="controls2">
-                <button id="min2">分</button>
-                <button id="sec2">10秒</button>
-                <button id="start2">スタート</button>
-                <button id="reset2">リセット</button>
+        <div class="box" style="background-color: rgb(252, 252, 183)">
+            <div class="title">焼く</div>
+            <div id="timer-2" class="timer">
+                <p id="timer2" class="time">00:00</p>
+                <div id="controls2" class="btns">
+                    <div class="btn">
+                        <button id="min2">＋　１分</button>
+                        <button id="sec2">＋１０秒</button>
+                    </div>
+                    <div class="btn">
+                        <button id="start2">スタート</button>
+                        <button id="reset2">リセット</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="timer-3" class="timer">
-            <form method="post">
-                <input type="radio" name="method">煮る
-                <input type="radio" name="method">焼く
-                <input type="radio" name="method">茹でる
-                <input type="radio" name="method">その他
-            </form>
-
-            <div id="timer3" class="time">00:00</div>
-            
-            <div id="controls3">
-                <button id="min3">分</button>
-                <button id="sec3">10秒</button>
-                <button id="start3">スタート</button>
-                <button id="reset3">リセット</button>
+        <div class="box" style="background-color: rgb(193, 252, 193);">
+            <div class="title" style="font-size: 26px;">茹でる</div>
+            <div id="timer-3" class="timer">
+                <p id="timer3" class="time">00:00</p>
+                <div id="controls3" class="btns">
+                    <div class="btn">
+                        <button id="min3">＋　１分</button>
+                        <button id="sec3">＋１０秒</button>
+                    </div>
+                    <div class="btn">
+                        <button id="start3">スタート</button>
+                        <button id="reset3">リセット</button>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
