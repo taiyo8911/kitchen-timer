@@ -17,21 +17,20 @@ body {
 }
 
 header {
-    background-color: skyblue;
-    height: 10vh;
+    background-color: rgb(184, 225, 241);
+    height: 13vh;
     text-align: center;
 }
 
 main {
     background-color: lightgray;
-    height: 80vh;
-    padding-top: 11px;
+    height: 74vh;
     box-sizing: border-box;
 }
 
 footer {
-    background-color: pink;
-    height: 10vh;
+    background-color: rgb(184, 225, 241);
+    height: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +38,7 @@ footer {
 
 .flex {
     display: flex;
-    width: max-content;
+    width: 100%;
 }
 
 .center {
@@ -48,50 +47,74 @@ footer {
 }
 
 .box {
-    display: flex;
     width: 70vw;
-    height: 25vh;
-    margin-bottom: 5px;
-    border: 1px double black;
+    height: max-content;
     align-items: center;
 }
 
-.column1 {
+.title{
     font-weight: bold;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 6vw;
+    width: 50%;
 }
 
-.column2 {
-    width: 70%;
-    height: 100%;
-    display: flex;
+.time{
     font-weight: bold;
-    flex-direction: column;
+    font-size: 6vw;
+    width: 50%;
 }
 
-.row1 {
-    height: 50%;
-    font-size: 7vw;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
+.controls{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.row2 {
-    height: 50%;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn {
+.controls button{
+    padding: 1px;
+    font-weight: bold;
     padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    header {
+        background-color: skyblue;
+        height: max-content;
+        text-align: center;
+    }
+    
+    main {
+        height: max-content;
+        box-sizing: border-box;
+    }
+    
+    footer {
+        background-color: skyblue;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box {
+        width: 70vw;
+        height: max-content;
+        box-sizing: border-box;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    .title, .time{
+        font-weight: bold;
+        font-size: 6vw;
+        width: 50%;
+    }
+    
+    .controls button{
+        font-weight: bold;
+    }
 }
