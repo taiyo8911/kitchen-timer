@@ -11,19 +11,21 @@
 
 <body>
     <header>
-        <a href=""><h1>同時にキッチンタイマー</h1></a>
-        <p style="margin-bottom: 10px;">「煮る、焼く、茹でる」を同時に。</p>
-        <div class="twitter">
-            <a href="//twitter.com/share" class="twitter-share-button" data-text="同時にキッチンタイマー" data-url="https://taiyo8911.github.io/kitchen-timer/" data-lang="ja" data-hashtags="同時にキッチンタイマー">ツイート</a>
+        <h1><a href="">同時にキッチンタイマー</a></h1>
+        <div class="flex center">
+            <p>「煮る、焼く、茹でる」を同時に。</p>
+            <div class="twitter">
+                <a href="//twitter.com/share" class="twitter-share-button" data-text="同時にキッチンタイマー" data-url="https://taiyo8911.github.io/kitchen-timer/" data-lang="ja" data-hashtags="同時にキッチンタイマー">ツイート</a>
+            </div>
         </div>
     </header>
 
     <main>
-        <div class="box" style="background-color: rgb(250, 207, 214);">
-            <div class="title">煮る</div>
-            <div id="timer-1" class="timer">
-                <p id="timer" class="time">00:00</p>
-                <div id="controls" class="btns">
+        <div class="box center" style="background-color: rgb(250, 207, 214);">
+            <div class="title column1">煮る</div>
+            <div id="timer-1" class="column2">
+                <p id="timer" class="row1 flexiblebox">00:00</p>
+                <div id="controls" class="row2">
                     <div class="btn">
                         <button id="min">＋　１分</button>
                         <button id="sec">＋１０秒</button>
@@ -36,11 +38,11 @@
             </div>
         </div>
 
-        <div class="box" style="background-color: rgb(252, 252, 183)">
-            <div class="title">焼く</div>
-            <div id="timer-2" class="timer">
-                <p id="timer2" class="time">00:00</p>
-                <div id="controls2" class="btns">
+        <div class="box center" style="background-color: rgb(252, 252, 183)">
+            <div class="title column1">焼く</div>
+            <div id="timer-2" class="column2">
+                <p id="timer2" class="row1">00:00</p>
+                <div id="controls2" class="row2">
                     <div class="btn">
                         <button id="min2">＋　１分</button>
                         <button id="sec2">＋１０秒</button>
@@ -53,11 +55,11 @@
             </div>
         </div>
 
-        <div class="box" style="background-color: rgb(193, 252, 193);">
-            <div class="title" style="font-size: 26px;">茹でる</div>
-            <div id="timer-3" class="timer">
-                <p id="timer3" class="time">00:00</p>
-                <div id="controls3" class="btns">
+        <div class="box center" style="background-color: rgb(193, 252, 193);">
+            <div class="title column1">茹でる</div>
+            <div id="timer-3" class="column2">
+                <p id="timer3" class="row1">00:00</p>
+                <div id="controls3" class="row2">
                     <div class="btn">
                         <button id="min3">＋　１分</button>
                         <button id="sec3">＋１０秒</button>
