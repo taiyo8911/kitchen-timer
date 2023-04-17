@@ -1,3 +1,8 @@
-# kitchen-timer
+# KitchenTimer-NEXT
+「煮る、焼く、蒸す」同時に調理する時に便利なキッチンタイマーアプリ。
 
-3つ同時に動かせるキッチンタイマー。
+## Features
+* コードが冗長的にならないように工夫した。
+
+## Requirement
+JavaScriptのみなのでブラウザで動きます。

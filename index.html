@@ -1,76 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <title>同時にキッチンタイマー</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>同時にキッチンタイマー</title>
+    </head>
 
-<body>
-    <header>
-        <h1><a href="">同時にキッチンタイマー</a></h1>
-        <div class="center">
-            <p>「煮る、焼く、茹でる」を同時に。</p>
-            <div class="twitter">
-                <a href="//twitter.com/share" class="twitter-share-button" data-text="同時にキッチンタイマー"
-                    data-url="https://taiyo8911.github.io/kitchen-timer/" data-lang="ja"
-                    data-hashtags="同時にキッチンタイマー">ツイート</a>
-            </div>
-        </div>
-    </header>
+    <body>
+        <h1>同時にキッチンタイマー</h1>
+        <p>煮る、焼く、茹でるを同時に計測する</p>
 
-    <main>
-        <div class="box center" style="background-color: rgb(250, 207, 214);">
-            <div class="flex">
-                <p class="title">煮る</p>
-                <p class="time" id="timer">00:00</p>
-            </div>
+        <div class="container">
 
-            <div class="controls" id="controls">
-                <button id="min">＋　１分</button>
-                <button id="sec">＋１０秒</button>
-                <button id="start">スタート</button>
-                <button id="reset">リセット</button>
-            </div>
-        </div>
+            <div class="box" style="background-color: rgb(250, 207, 214);">
+                <div class="flex">
+                    <p class="title">煮る</p>
+                    <p class="time" id="timer1">00:00</p>
+                </div>
 
-        <div class="box center" style="background-color: rgb(252, 252, 183)">
-            <div class="flex">
-                <p class="title">焼く</p>
-                <p class="time" id="timer2">00:00</p>
-        </div>
-
-        <div class="controls" id="controls2">
-            <button id="min2">＋　１分</button>
-            <button id="sec2">＋１０秒</button>
-            <button id="start2">スタート</button>
-            <button id="reset2">リセット</button>
-        </div>
-        </div>
-
-        <div class="box center" style="background-color: rgb(193, 252, 193);">
-            <div class="flex">
-                <p class="title">茹でる</p>
-                <p class="time" id="timer3">00:00</p>
+                <div class="controls" id="controls">
+                    <button id="min1">＋ 1分</button>
+                    <button id="sec1">＋ 10秒</button>
+                    <button id="start1">スタート</button>
+                    <button id="reset1">リセット</button>
+                </div>
             </div>
 
-            <div class="controls" id="controls3">
-                <button id="min3">＋　１分</button>
-                <button id="sec3">＋１０秒</button>
-                <button id="start3">スタート</button>
-                <button id="reset3">リセット</button>
+            <div class="box" style="background-color: rgb(252, 252, 183)">
+                <div class="flex">
+                    <p class="title">焼く</p>
+                    <p class="time" id="timer2">00:00</p>
+                </div>
+
+                <div class="controls" id="controls2">
+                    <button id="min2">＋ 1分</button>
+                    <button id="sec2">＋ 10秒</button>
+                    <button id="start2">スタート</button>
+                    <button id="reset2">リセット</button>
+                </div>
+            </div>
+
+            <div class="box" style="background-color: rgb(193, 252, 193);">
+                <div class="flex">
+                    <p class="title">茹でる</p>
+                    <p class="time" id="timer3">00:00</p>
+                </div>
+
+                <div class="controls" id="controls3">
+                    <button id="min3">＋ 1分</button>
+                    <button id="sec3">＋ 10秒</button>
+                    <button id="start3">スタート</button>
+                    <button id="reset3">リセット</button>
+                </div>
             </div>
         </div>
-    </main>
 
-    <footer>
-        <a href="https://taiyosite.com/">&copy;TAIYO-BLOG</a>
-    </footer>
-
-    <script src="main.js"></script>
-</body>
+        <script src="main.js"></script>
+    </body>
 
 </html>
