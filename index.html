@@ -9,53 +9,56 @@
     </head>
 
     <body>
-        <h1>同時にキッチンタイマー</h1>
-        <p>煮る、焼く、茹でるを同時に計測する</p>
+        <div>
+            <h1>同時にキッチンタイマー</h1>
+            <p>「煮る、焼く、茹でる」を同時計測</p>
 
-        <div class="container">
+            <div class="container">
 
-            <div class="box" style="background-color: rgb(250, 207, 214);">
-                <div class="flex">
-                    <p class="title">煮る</p>
-                    <p class="time" id="timer1">00:00</p>
+                <div class="box" style="background-color: rgb(250, 207, 214);">
+                    <div class="flex">
+                        <p class="title">煮る</p>
+                        <p class="time" id="timer1">00:00</p>
+                    </div>
+
+                    <div class="controls" id="controls">
+                        <button id="min1">＋ 1分</button>
+                        <button id="sec1">＋ 10秒</button>
+                        <button id="start1">スタート</button>
+                        <button id="reset1">リセット</button>
+                    </div>
                 </div>
 
-                <div class="controls" id="controls">
-                    <button id="min1">＋ 1分</button>
-                    <button id="sec1">＋ 10秒</button>
-                    <button id="start1">スタート</button>
-                    <button id="reset1">リセット</button>
-                </div>
-            </div>
+                <div class="box" style="background-color: rgb(252, 252, 183)">
+                    <div class="flex">
+                        <p class="title">焼く</p>
+                        <p class="time" id="timer2">00:00</p>
+                    </div>
 
-            <div class="box" style="background-color: rgb(252, 252, 183)">
-                <div class="flex">
-                    <p class="title">焼く</p>
-                    <p class="time" id="timer2">00:00</p>
-                </div>
-
-                <div class="controls" id="controls2">
-                    <button id="min2">＋ 1分</button>
-                    <button id="sec2">＋ 10秒</button>
-                    <button id="start2">スタート</button>
-                    <button id="reset2">リセット</button>
-                </div>
-            </div>
-
-            <div class="box" style="background-color: rgb(193, 252, 193);">
-                <div class="flex">
-                    <p class="title">茹でる</p>
-                    <p class="time" id="timer3">00:00</p>
+                    <div class="controls" id="controls2">
+                        <button id="min2">＋ 1分</button>
+                        <button id="sec2">＋ 10秒</button>
+                        <button id="start2">スタート</button>
+                        <button id="reset2">リセット</button>
+                    </div>
                 </div>
 
-                <div class="controls" id="controls3">
-                    <button id="min3">＋ 1分</button>
-                    <button id="sec3">＋ 10秒</button>
-                    <button id="start3">スタート</button>
-                    <button id="reset3">リセット</button>
+                <div class="box" style="background-color: rgb(193, 252, 193);">
+                    <div class="flex">
+                        <p class="title">茹でる</p>
+                        <p class="time" id="timer3">00:00</p>
+                    </div>
+
+                    <div class="controls" id="controls3">
+                        <button id="min3">＋ 1分</button>
+                        <button id="sec3">＋ 10秒</button>
+                        <button id="start3">スタート</button>
+                        <button id="reset3">リセット</button>
+                    </div>
                 </div>
             </div>
         </div>
+
 
         <script src="main.js"></script>
     </body>
